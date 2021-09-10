@@ -1,13 +1,22 @@
 /* CSS Font Rule
-	font-family: 'IBM Plex Sans Arabic', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 */
+
+.biography-body-text{
+	font-family: 'IBM Plex Sans', sans-serif;
+	weight: 500;
+}
+
+.biography-header-text{
+	
+}
 
 .general-content{
 	background-color: #d8f3dc;
 }
 
 .navigation-content{
-	font-family: 'IBM Plex Sans Arabic', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 	weight: 500;
 	list-style-type: none;
 	display: block;
@@ -15,6 +24,6 @@
 }
 
 .placeholder-content{
-	font-family: 'IBM Plex Sans Arabic', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 	weight: 300;
 }
