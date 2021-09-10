@@ -3,6 +3,10 @@
 */
 
 .general-style{
+	background-color: #d8f3dc;
+}
+
+.placeholder-content{
 	font-family: 'IBM Plex Sans Arabic', sans-serif;
 	weight: 300;
 }
