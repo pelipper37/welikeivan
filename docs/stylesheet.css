@@ -2,8 +2,13 @@
 	font-family: 'IBM Plex Sans Arabic', sans-serif;
 */
 
-.general-style{
+.general-content{
 	background-color: #d8f3dc;
+}
+
+.navigation-content{
+	font-family: 'IBM Plex Sans Arabic', sans-serif;
+	weight: 500;
 }
 
 .placeholder-content{
