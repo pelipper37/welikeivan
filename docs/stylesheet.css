@@ -9,6 +9,9 @@
 .navigation-content{
 	font-family: 'IBM Plex Sans Arabic', sans-serif;
 	weight: 500;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 .placeholder-content{
