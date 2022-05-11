@@ -6,12 +6,12 @@ function testScriptOne() {
 
 function testScriptTwo()  {
 	// returns the drop rates for Ivan cards?
-	// very common - 40.00 %
+	// very common - 50.00 %
 	// common - 25.00 %
 	// uncommon - 15.00 %
-	// rare - 12.00 %
-	// very rare - 5.00 %
-	// purple - 2.50 %
+	// rare - 5.00 %
+	// very rare - 3.00 %
+	// purple - 1.50 %
 	// gold - 0.50 %
 }
 
@@ -19,27 +19,27 @@ function testScriptThree()	{
 	// operates the gacha
 	var gachaResult = this.testScriptOne();
 	var rarityResult;
-	if(gachaResult < 4 000)
+	if(gachaResult < 5 000)
 	{
 		rarityResult = "very common";
 	}
-	else if(gachaResult >= 4 000 && gachaResult < 6 500)
+	else if(gachaResult >= 5 000 && gachaResult < 7 500)
 	{
 		rarityResult = "common";
 	}
-	else if(gachaResult >= 6 500 && gachaResult < 8 000)
+	else if(gachaResult >= 7 500 && gachaResult < 9 000)
 	{
 		rarityResult = "uncommon";
 	}
-	else if(gachaResult >= 8 000 && gachaResult < 9 200)
+	else if(gachaResult >= 9 000 && gachaResult < 9 500)
 	{
 		rarityResult = "rare";
 	}
-	else if(gachaResult >= 9 200 && gachaResult < 9 700)
+	else if(gachaResult >= 9 500 && gachaResult < 9 800)
 	{
 		rarityResult = "very rare";
 	}
-	else if(gachaResult >= 9 700 && gachaResult < 9 950)
+	else if(gachaResult >= 9 800 && gachaResult < 9 950)
 	{
 		rarityResult = "purple";
 	}
